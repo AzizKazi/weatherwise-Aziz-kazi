@@ -12,3 +12,9 @@ AI: The main challenge is that Open-Meteo requires geographic coordinates, not j
 
 Me: Given these points, which do you recommend for a student project?
 AI: If simplicity with minimal effort is paramount, wttr.in is the easiest choice. But if you want a more realistic and extensible weather data API without API keys, Open-Meteo is a strong option, especially if you can manage the coordinate lookup step.
+
+
+The main objective involves testing two weather APIs (wttr.in or openmetro) to 
+check which one is best for my assignment.
+The prompt were created for comparison between two APIs regarding their features, usability for beginners and their operational constraints.
+The API selection process is focused on implementing straight forward use and fulfill all requiremnts of the assignment.
