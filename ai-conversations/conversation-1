@@ -1,0 +1,14 @@
+Tool: Perplexity Pro
+Date: 16-10-2025
+
+Me: What are the advantages and drawbacks of using Open-Meteo versus wttr.in for my student weather assignment?
+AI: Open-Meteo offers a free, API-key-free service with detailed daily forecasts and flexible parameters. It requires latitude and longitude but provides accurate multi-day weather data and supports specific weather attributes. wttr.in is simpler with direct city queries and no setup hassle but limits forecasts to 3 days and fewer parameters.
+
+Me: Which API is easier for beginners to integrate using Python?
+AI: wttr.in is easier for absolute beginners due to simple URL calls with city names and minimal parameters. Open-Meteo requires handling latitude/longitude and parsing nested JSON but is straightforward enough with basic Python requests usage.
+
+Me: What limitations should I expect from Open-Meteo for this assignment?
+AI: The main challenge is that Open-Meteo requires geographic coordinates, not just city names, which means extra steps for converting city names to coordinates. Also, parsing its structured JSON data may add complexity versus wttr.in’s simple output. However, it offers richer forecast details without need for API keys.
+
+Me: Given these points, which do you recommend for a student project?
+AI: If simplicity with minimal effort is paramount, wttr.in is the easiest choice. But if you want a more realistic and extensible weather data API without API keys, Open-Meteo is a strong option, especially if you can manage the coordinate lookup step.
