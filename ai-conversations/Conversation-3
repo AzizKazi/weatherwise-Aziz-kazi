@@ -1,3 +1,6 @@
+Tool: ChatGPT
+Date: 17-10-2025
+
 Me:
 Now that I’ve got the weather data retrieval and response generation working, I want to improve the user interface. I’m thinking about using pyinputplus to handle input validation. I also want to add more detailed error messages. Can you help me structure the menu system with input validation for the location?
 
