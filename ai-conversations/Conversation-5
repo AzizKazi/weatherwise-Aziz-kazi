@@ -1,3 +1,6 @@
+Tool: Perplexity Pro
+Date: 18-10-2025
+
 Me:
 Now that the core functionality and visualizations are working, I want to ensure that the application is thoroughly tested. I’ll need to validate whether the weather data retrieval works for various locations, check the behavior when there’s no forecast data, and test the user interface. How should I approach testing this application?
 
