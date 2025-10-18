@@ -1,4 +1,5 @@
-Conversation 4: Adding Visualizations and Enhancing User Feedback
+Tool: ChatGPT 
+Date: 17-10-2025
 
 Me:
 I want to add some visualizations to the weather data. Specifically, I’d like to generate a temperature trend over several days and display a precipitation chart. Can you help me implement these features using matplotlib?
