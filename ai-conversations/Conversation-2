@@ -1,3 +1,6 @@
+Tool: Chat GPT
+Date: 16-10-2025
+
 Me:
 I'm working on a function that retrieves weather data from an external API for a given location. I want to start by getting the weather data for a specified city. I’ll use the get_weather_data function and will pass a location and a number of forecast days. Can you suggest how to approach this?
 
