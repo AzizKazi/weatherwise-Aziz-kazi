@@ -53,33 +53,27 @@ Aim for ≥ 15 meaningful commits showing your development journey.
 ---
 
 ## 📁 Folder Structure
-.
-├─ ai-conversations/
-│  ├─ conversation-1
-│  ├─ Conversation-2
-│  ├─ Conversation-3
-│  ├─ Conversation-4
-│  ├─ Conversation-5
-│  └─ how-to-log-ai-conversations.txt      # guidance for logging chats
-│
-├─ resources/
-│  ├─ ai-tips-tricks.md                    # prompting tactics, pitfalls
-│  ├─ assignment-summary.md                # high-level brief
-│  ├─ before-after-example.md              # sample iterative prompt/code
-│  ├─ fetch-my-weather-llm-guide.md        # API helper guide
-│  ├─ hands-on-ai-llm-guide.md             # LLM workflow tips
-│  ├─ prompt-by-method-step.md             # structured prompting templates
-│  ├─ python-intentional-prompting.md      # techniques for coding help
-│  └─ sample-prompting-journey.md          # exemplar conversation journey
-│
-├─ submission/
-│  ├─ checklist.md                         # what to submit & verify
-│  └─ reflection.md                        # 300–500 word reflection scaffold
-│
-├─ .gitignore
-├─ ASSIGNMENT.md                           # full assignment specification
-├─ README.md                               # your project readme (this)
-└─ starter_notebook.ipynb                  # main app (code + visuals + menu)
+| **Folder / File**                        | **Description / Purpose**                                                   |
+| ---------------------------------------- | --------------------------------------------------------------------------- |
+| **ai-conversations/**                    | Stores all AI conversation logs demonstrating intentional prompting.        |
+| ├── `conversation-1` to `Conversation-5` | Sequential text files containing major AI-assisted development discussions. |
+| ├── `how-to-log-ai-conversations.txt`    | Instructions on how to correctly record and format AI conversations.        |
+| **resources/**                           | Collection of guides, learning materials, and prompting resources.          |
+| ├── `ai-tips-tricks.md`                  | General tips and techniques for working effectively with AI tools.          |
+| ├── `assignment-summary.md`              | Overview and objectives of the WeatherWise assignment.                      |
+| ├── `before-after-example.md`            | Demonstrates before/after improvements using intentional prompting.         |
+| ├── `fetch-my-weather-llm-guide.md`      | Step-by-step guide for using the wttr.in weather API.                       |
+| ├── `hands-on-ai-llm-guide.md`           | Practical reference for AI-assisted coding workflows.                       |
+| ├── `prompt-by-method-step.md`           | List of structured prompting methods for different use cases.               |
+| ├── `python-intentional-prompting.md`    | Python-specific guidance for structured prompting and debugging.            |
+| ├── `sample-prompting-journey.md`        | Example illustrating a complete AI-driven project development journey.      |
+| ├── `template-repository-beginners.md`   | Reference guide for setting up and using the starter template.              |
+| **submission/**                          | Contains final deliverables and documents for submission.                   |
+| ├── `checklist.md`                       | Pre-submission checklist to verify all requirements are met.                |
+| ├── `reflection.md`                      | 300–500 word reflection on AI collaboration and development experience.     |
+| **Root Directory**                       | —                                                                           |
+| `.gitignore`                             | Lists files and folders to exclude fro                                      |
+
 
 ---
 
