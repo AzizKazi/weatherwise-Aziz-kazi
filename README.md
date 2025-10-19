@@ -222,6 +222,117 @@ Packaging & LMS
 AI interactions in the `ai-conversations/` folder.  
 See `ai-conversations/how-to-log-ai-conversations.md` for details.
 
+Submission Checklist
+
+Before submitting your WeatherWise project, review the following checklist to ensure that all components are complete and meet the assignment requirements.
+
+🧩 Code and Functionality
+
+ Implemented all required core functions:
+
+ get_weather_data(location, forecast_days)
+
+ parse_weather_question(question)
+
+ generate_weather_response(parsed_question, weather_data)
+
+ Created at least two working visualisations using matplotlib:
+
+ Temperature trend chart
+
+ Precipitation or windspeed chart
+
+ Implemented a menu system or clear function calls for user interaction
+
+ Included error handling for invalid inputs or missing data
+
+ All notebook cells execute successfully without runtime errors
+
+🧠 AI Conversation Documentation
+
+ At least 5 AI conversation logs saved in ai-conversations/ folder
+
+ Each file follows a clear format (e.g., Conversation-1.txt, Conversation-2.txt, etc.)
+
+ Conversations demonstrate intentional prompting (problem-solving, debugging, and iteration)
+
+ Includes before/after examples showing how AI input improved your code
+
+ Shows at least one example of handling incorrect AI output
+
+📄 Documentation
+
+ README.md file includes:
+
+ Project description and overview
+
+ How to use the template
+
+ Folder structure
+
+ Quick start instructions
+
+ Submission checklist
+
+ ASSIGNMENT.md file present (original instructions and marking guide)
+
+ Reflection document (submission/reflection.md) written (300–500 words)
+
+ All Markdown files (.md) use consistent formatting and headings
+
+🧪 Testing
+
+ Test cases written for get_weather_data() (mocked API)
+
+ Verified code behavior for both success and error conditions
+
+ Visualisations tested with sample data to confirm output
+
+ All outputs render correctly in the notebook
+
+🔁 Version Control
+
+ Repository created from the provided template
+
+ Instructor/invigilator invited to view the repository
+
+ Minimum of 15 meaningful commits showing iterative development
+
+ Clear and descriptive commit messages (e.g., “Added temperature visualisation function”)
+
+📦 Final Submission
+
+ All required files and folders included:
+
+ starter_notebook.ipynb
+
+ README.md
+
+ ASSIGNMENT.md
+
+ ai-conversations/
+
+ submission/reflection.md
+
+ Repository zipped for LMS submission
+
+ ZIP file tested for extraction and accessibility
+
+ Notebook runs from top to bottom without errors
+
+🌟 Optional (for Bonus Marks)
+
+ Implemented third visualisation (windspeed, humidity, etc.)
+
+ Used advanced error handling or caching techniques
+
+ Enhanced the NLP question parsing with more robust logic
+
+ Included additional AI analysis or reflection on project development
+
+✅ Final Check:
+Ensure your repository is well-organised, clearly documented, and demonstrates your understanding of both coding and AI-assisted development.
+
 
 --
 ## 🧠 Need Help with AI Prompts?
