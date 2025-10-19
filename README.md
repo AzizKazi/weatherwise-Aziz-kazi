@@ -15,16 +15,39 @@ It also scaffolds how to document AI collaboration (conversation logs, before/af
 
 ## 🚀 How to Use This Template
 
-Create your copy
-On GitHub: Use this template → create your repo.
-Clone locally or open in Colab.
-Open the notebook
-Work in starter_notebook.ipynb.
-Install dependencies (first notebook cell)
+1. Create Your Own Repository
+
+Click the “Use this template” button on GitHub.
+
+Create your own repository (name it something like weatherwise-project).
+
+Clone it locally or open it directly in Google Colab or Jupyter Notebook.
+
+2. Open the Main Notebook
+
+Locate the file named starter_notebook.ipynb.
+
+This notebook contains all the core Python functions and visualisations for the project.
+
+3. Install Required Dependencies
+
+Before running any code, install the required Python libraries:
+
 pip install pyinputplus matplotlib requests
 
 
-Run core functions (quick sanity check)
+These libraries support:
+
+requests → Fetching weather data from the wttr.in API
+
+matplotlib → Creating temperature and precipitation visualisations
+
+pyinputplus → Validating user inputs for menu selections
+
+4. Run and Test Core Functions
+
+Use the provided functions to fetch and visualise weather data:
+
 data = get_weather_data("Perth", days=3)
 create_temperature_visualisation(data)
 create_precipitation_visulisation(data)
@@ -32,8 +55,18 @@ create_windspeed_visulisation(data)
 parse_weather_question("What is the temperature in Perth tomorrow?")
 
 
-(Optional) Enable the compact menu
-The menu cell references older helper names. Add these aliases above weather_app_menu():
+These commands will:
+
+Retrieve weather data for a selected city
+
+Generate temperature and precipitation graphs
+
+Parse a natural language weather question
+
+5. Activate the Interactive Menu (Optional)
+
+If you want to use the command-line menu (weather_app_menu()), add the following function aliases above the menu code block:
+
 fetch_weather = get_weather_data
 interpret_question = parse_weather_question
 build_response = generate_weather_response
@@ -43,13 +76,48 @@ visualize_wind = create_windspeed_visulisation
 
 
 Then run:
+
 weather_app_menu()
-Log your AI conversations
-Save each as text in ai-conversations/ (Conversation-1, Conversation-2, …).
 
-Commit often
 
-Aim for ≥ 15 meaningful commits showing your development journey.
+This enables a simple console-based interface where users can:
+
+View weather forecasts
+
+Ask questions in plain English
+
+Display different types of visualisations
+
+6. Record Your AI Conversations
+
+Document your collaboration with AI tools (e.g., ChatGPT, Copilot) and save each conversation as text files in the ai-conversations/ folder.
+Name them sequentially (e.g., Conversation-1.txt, Conversation-2.txt, etc.).
+
+ At least five major AI conversations are required for submission.
+
+7. Commit and Push Regularly
+
+Maintain good version control practices:
+
+Make frequent, meaningful commits showing progress.
+
+Aim for at least 15 commits that capture different stages (setup, implementation, debugging, final testing).
+
+Example commit messages:
+
+git add .
+git commit -m "Added get_weather_data function with error handling"
+git push origin main
+
+8. Prepare for Submission
+
+Before submitting:
+
+Ensure all required files are included (README.md, reflection.md, AI conversations, and the notebook).
+
+Download a ZIP file of your repository.
+
+Submit it through your LMS according to the assignment instructions.
 ---
 
 ## 📁 Folder Structure
