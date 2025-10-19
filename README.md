@@ -192,146 +192,114 @@ data['weather'][i]['date']
 
 ## 📓 Submission Checklist
 
-Code & Features
- get_weather_data, parse_weather_question, generate_weather_response implemented and working.
- At least 2 visualisations working (temperature, precipitation, wind optional third).
- Menu runs or functions callable directly in notebook.
- Tests runnable (mocked) or clearly documented with expected results.
-
-Documentation
- README.md updated (description, how to run, structure, checklist).
- AI conversations saved as text in ai-conversations/ (≥ 5 significant).
- Before/after examples included (at least 3).
- Reflection (300–500 words) completed in submission/reflection.md.
-
-Version Control
- GitHub repo invited instructor.
- ≥ 15 meaningful commits showing progression.
-
-Packaging & LMS
- Repo is tidy; unnecessary artifacts removed.
- Downloaded ZIP of entire repo for LMS submission.
- Notebook executes top-to-bottom without errors (or clearly marks optional cells).
- Nice-to-have (bonus credibility)
- Brief note on limitations (e.g., simple city parsing; noon wind heuristic).
- Clear error messages when data missing or network fails.
-
----
-
-🧠 AI Conversations  
-AI interactions in the `ai-conversations/` folder.  
-See `ai-conversations/how-to-log-ai-conversations.md` for details.
-
-Submission Checklist
-
 Before submitting your WeatherWise project, review the following checklist to ensure that all components are complete and meet the assignment requirements.
 
-🧩 Code and Functionality
+-> Code and Functionality
 
- Implemented all required core functions:
+    Implemented all required core functions:
 
- get_weather_data(location, forecast_days)
+    get_weather_data(location, forecast_days)
 
- parse_weather_question(question)
+    parse_weather_question(question)
 
- generate_weather_response(parsed_question, weather_data)
+    generate_weather_response(parsed_question, weather_data)
 
- Created at least two working visualisations using matplotlib:
+    Created at least two working visualisations using matplotlib:
 
- Temperature trend chart
+   Temperature trend chart
 
- Precipitation or windspeed chart
+   Precipitation or windspeed chart
 
- Implemented a menu system or clear function calls for user interaction
+   Implemented a menu system or clear function calls for user interaction
 
- Included error handling for invalid inputs or missing data
+   Included error handling for invalid inputs or missing data
 
- All notebook cells execute successfully without runtime errors
+  All notebook cells execute successfully without runtime errors
 
 🧠 AI Conversation Documentation
 
- At least 5 AI conversation logs saved in ai-conversations/ folder
+   At least 5 AI conversation logs saved in ai-conversations/ folder
 
- Each file follows a clear format (e.g., Conversation-1.txt, Conversation-2.txt, etc.)
+   Each file follows a clear format (e.g., Conversation-1.txt, Conversation-2.txt, etc.)
 
- Conversations demonstrate intentional prompting (problem-solving, debugging, and iteration)
+   Conversations demonstrate intentional prompting (problem-solving, debugging, and iteration)
 
- Includes before/after examples showing how AI input improved your code
+   Includes before/after examples showing how AI input improved your code
 
- Shows at least one example of handling incorrect AI output
+   Shows at least one example of handling incorrect AI output
 
 📄 Documentation
 
- README.md file includes:
+   README.md file includes:
 
- Project description and overview
+   Project description and overview
 
- How to use the template
+   How to use the template
 
- Folder structure
+   Folder structure
 
- Quick start instructions
+   Quick start instructions
 
- Submission checklist
+   Submission checklist
 
- ASSIGNMENT.md file present (original instructions and marking guide)
+   ASSIGNMENT.md file present (original instructions and marking guide)
 
- Reflection document (submission/reflection.md) written (300–500 words)
+   Reflection document (submission/reflection.md) written (300–500 words)
 
- All Markdown files (.md) use consistent formatting and headings
+   All Markdown files (.md) use consistent formatting and headings
 
 🧪 Testing
 
- Test cases written for get_weather_data() (mocked API)
+   Test cases written for get_weather_data() (mocked API)
 
- Verified code behavior for both success and error conditions
+   Verified code behavior for both success and error conditions
 
- Visualisations tested with sample data to confirm output
+   Visualisations tested with sample data to confirm output
 
- All outputs render correctly in the notebook
+   All outputs render correctly in the notebook
 
 🔁 Version Control
 
- Repository created from the provided template
+   Repository created from the provided template
 
- Instructor/invigilator invited to view the repository
+   Instructor/invigilator invited to view the repository
 
- Minimum of 15 meaningful commits showing iterative development
+   Minimum of 15 meaningful commits showing iterative development
 
- Clear and descriptive commit messages (e.g., “Added temperature visualisation function”)
+   Clear and descriptive commit messages (e.g., “Added temperature visualisation function”)
 
 📦 Final Submission
 
- All required files and folders included:
+   All required files and folders included:
 
- starter_notebook.ipynb
+   starter_notebook.ipynb
+ 
+   README.md
 
- README.md
+   ASSIGNMENT.md
 
- ASSIGNMENT.md
+   ai-conversations/
 
- ai-conversations/
+   submission/reflection.md
 
- submission/reflection.md
+   Repository zipped for LMS submission
 
- Repository zipped for LMS submission
-
- ZIP file tested for extraction and accessibility
-
- Notebook runs from top to bottom without errors
+   ZIP file tested for extraction and accessibility
+  
+   Notebook runs from top to bottom without errors
 
 🌟 Optional (for Bonus Marks)
+  
+   Implemented third visualisation (windspeed, humidity, etc.)
 
- Implemented third visualisation (windspeed, humidity, etc.)
+   Used advanced error handling or caching techniques
 
- Used advanced error handling or caching techniques
+   Enhanced the NLP question parsing with more robust logic
 
- Enhanced the NLP question parsing with more robust logic
-
- Included additional AI analysis or reflection on project development
+   Included additional AI analysis or reflection on project development
 
 ✅ Final Check:
-Ensure your repository is well-organised, clearly documented, and demonstrates your understanding of both coding and AI-assisted development.
+  Ensure your repository is well-organised, clearly documented, and demonstrates your understanding of both coding and AI-assisted development.
 
 
 --
